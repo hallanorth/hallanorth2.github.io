@@ -1,0 +1,345 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #000000;
+  color: #ffffff;
+  
+}
+
+header {
+  background-color: #000000;
+  font-family: 'Papyrus', sans-serif;
+  color: #fff;
+  padding: 1em 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.company-info {
+  display: flex;
+  align-items: center;
+}
+.company-info h1 {
+  margin: 0;
+  margin-left: 10px; /* Adjust the margin between the logo and company name */
+}
+.logo img {
+  max-height: 50px; /* Adjust the maximum height of the logo */
+}
+
+.company-info {
+  flex-grow: 1;
+  margin-left: 20px; /* Add margin for spacing between logo and company name */
+}
+header h1 {
+  margin: 0;
+  color:#ffffff
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.full-width-image {
+  position: relative;
+  overflow: hidden;
+  color: #ffffff;
+}
+
+.full-width-image img {
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.6s ease-in-out;
+}
+
+.innovation-section {
+  padding: 80em 0; /* Adjust padding to control spacing */
+  background-color: #000000;
+  position: relative;
+  top: -100vh; /* Offset to hide initially */
+  opacity: 0;
+  pointer-events: none;
+  margin-top: -100vh; /* Adjust margin-top to match the height of the full-width image */
+  transition: opacity 1.0s ease-in-out;
+}
+
+.innovation-section {
+  padding: 80em 0; /* Adjust padding to control spacing */
+  background-color: #000000;
+  position: relative;
+  top: -100vh; /* Offset to hide initially */
+  opacity: 0;
+  pointer-events: none;
+  margin-top: -100vh; /* Adjust margin-top to match the height of the full-width image */
+  transition: opacity 1.0s ease-in-out;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.innovation-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.innovation-text {
+  flex-basis: 50%; /* Adjust the width of the text area */
+  padding-right: 20px; /* Adjust spacing between text and image */
+}
+
+
+.innovation-text h2 {
+  margin-bottom: 10px; /* Adjust spacing between heading and paragraph */
+}
+
+.innovation-text p {
+  margin-bottom: 0;
+}
+
+.innovation-content img {
+  flex-basis: 50%; /* Adjust the width of the image area */
+  max-width: 50%; /* Set the maximum width of the image to 100% of its container */
+  max-height: 50%;
+  height: auto; /* Allow the height to adjust automatically based on the aspect ratio */
+}
+
+
+/* ... existing styles ... */
+
+.additional-section {
+  background-color: #e6e6e6;
+  padding: 130em 0;
+  text-align: center;
+}
+
+.additional-section h2 {
+  color: #333;
+}
+
+.additional-section p {
+  color: #555;
+}
+
+/* ... existing styles ... */
+
+
+.container {
+  max-width: 1200px;
+  margin: 40px auto 0; /* Add 80px top margin to account for the fixed header */
+  padding: 50px; /* Add padding for spacing */
+  background-color: #000000;
+  color: #ffffff;
+}
+.container1 {
+  max-width: 1200px;
+  margin: 10px auto 0; /* Add 80px top margin to account for the fixed header */
+  padding:0px; /* Add padding for spacing */
+  background-color: #000000;
+  color: #ffffff;
+}
+footer {
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.contact-member {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.member-info {
+  flex-basis: 60%;
+  padding-right: 20px; /* Add padding for spacing between member info and image */
+}
+
+.member-image img {
+  width: 100%;
+  max-width: 100px; /* Adjust the maximum width of the image */
+  height: auto;
+}
+
+.product-section {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.product-space {
+  height: 30px; /* Add space between products */
+}
+
+.product-text {
+  flex-basis: 60%;
+  padding-right: 20px;
+}
+
+.product-image img {
+  width: 100%;
+  height: auto;
+}
+
+.video-section {
+  display: flex;
+  margin-top: 30px; /* Add space between products and video section */
+}
+
+.video-text {
+  flex-basis: 60%;
+  padding-right: 20px;
+  font-family: 'Papyrus', sans-serif;
+}
+.video-subtext{
+  font-family:'Arial', sans-serif;
+  max-width: 70%;
+}
+
+.video-container {
+  flex-basis: 40%;
+}
+
+.team-section {
+  text-align: center;
+  margin-bottom: 50px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team-description {
+  margin-bottom: 20px;
+}
+
+.contact-member {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.member-info {
+  flex-basis: 60%;
+  padding-right: 20px;
+}
+
+.member-image img {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; /* Adjust the gap as needed */
+}
+.enlarged-text {
+  font-size: 18px; /* Adjust the font size as needed */
+  line-height: 1.6; /* Adjust the line height for better readability */
+  margin-bottom: 0px; /* Add margin to separate paragraphs */
+}
+.vision-text {
+  font-size: 18px;
+  max-width: 70%;
+}
+.innovation-text h3 {
+  font-size: 27px
+}
+.innovation-text p {
+  font-size: 18px
+}
+.innovation-text h4 {
+  font-size: 39px
+}
+.innovation-text .text-image-container {
+  overflow: hidden;
+  margin-bottom: 250px;
+}
+
+.innovation-text .left-text,
+.innovation-text .right-text {
+  width: 95%;/* 이거 키ㄹㅜ록 줄  길ㅓ짐 */
+  float: left;
+  padding: 0 0px;
+  box-sizing: border-box;
+}
+.vision-section, #vision p {
+  margin-bottom: 0;
+}
+.innovation-text .left-image,
+.innovation-text .right-image {
+  width: 20%;
+  float: right;
+  position: absolute;
+  right: 20%; /* 이거 키울수록 더  왼ㅗ으로 감  */
+}
+
+.additional-sentence {
+  text-align: center;
+  margin: 50px 0; /* Adjust the margin as needed */
+  cursor: pointer;
+  transition: color 0.3s ease; /* Add smooth transition effect */
+}
+
+.additional-sentence:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.additional-sentence h1 {
+  font-size: 2.5em; /* Adjust the font size as needed */
+  color: #c1c1c1; /* Default color */
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.additional-sentence h2 {
+  text-align: left; /* Align text to the right */
+  padding: 1em 4em; /* Add padding on the right side */
+  font-weight: normal;
+  font-size: 1.5em; /* Adjust the font size as needed */
+  color: #ffffff;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.team-image {
+  text-align: center;
+}
+
+.team-image img {
+  max-width: 100%; /* Shrink the image to fit its container */
+  height: auto; /* Maintain the image's aspect ratio */
+}
+
+/* Style for each image-text block */
+.image-text {
+  text-align: center;
+  width: 48%;
+   /* Adjust the width as needed */
+}
+
+.image-text img {
+  width: 100%; /* Set the width to 100% to make all images have the same width */
+}
